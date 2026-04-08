@@ -1,0 +1,16 @@
+# Ignore Rails temp & log files
+log/*
+tmp/*
+
+# Ignore storage (Active Storage, SQLite, etc.)
+storage/*
+
+# Ignore database
+*.sqlite3
+
+# Ignore node modules
+node_modules/
+
+# Ignore credentials
+config/master.key
+
